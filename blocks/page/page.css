@@ -1,0 +1,14 @@
+@import url(__container/page__container.css);
+@import url(__inner-container/page__inner-container.css);
+
+.page {
+    background-color:  #2A2C2F;
+    color: white;
+    margin: 0 auto;
+    font-family: Inter, sans-serif;
+}
+
+
+
+
+

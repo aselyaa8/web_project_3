@@ -1,0 +1,231 @@
+@import url(../vendor/fonts/fonts.css);
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
+
+
+@media screen and (max-width: 1280px) {
+    .page__container {
+        max-width: 1024px;
+    }
+
+    .page__inner-container {
+        max-width: 928px;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    .lead__title {
+        margin-top: 50px;
+    }
+
+    .lead__figure {
+        margin-top: 56px;
+    }
+
+    .photo-grid {
+        max-width: 928px;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 14px;
+        margin: 0 auto 0;
+    }
+
+    .place {
+        grid-template-columns: 440px 456px;
+
+        box-sizing: border-box;
+        grid-column-gap: 32px;
+    }
+
+    .place__image {
+        max-width: 440px;
+        max-height: 440px;
+    }
+
+    .cover__link {
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .page__container {
+        max-width: 768px;
+    }
+
+    .page__inner-container {
+        max-width: 720px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .photo-grid {
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 16px;
+        margin: 0 24px 0;
+    }
+
+    .place {
+        margin: 73px 0 0;
+        grid-template-columns: 340px 352px;
+        box-sizing: border-box;
+        grid-column-gap: 28px;
+    }
+
+    .place:first-child {
+        margin-top: 88px;
+    }
+
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .place__image {
+        max-width: 340px;
+        max-height: 340px;
+    }
+    .cover__link {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    .page__container {
+        max-width: 320px;
+    }
+
+    .page__inner-container {
+        max-width: 320px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        max-width: 288px;
+    }
+
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 288px;
+        margin-top: 16px;
+    }
+
+    .lead__figure {
+        margin-top: 40px;
+    }
+
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+        max-width: 288px;
+    }
+    .logo {
+        max-width: 156px;
+        max-height: 36px;
+    }
+
+    .photo-grid {
+        display: grid;
+        grid-template-rows: repeat(12, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 12px;
+        margin: 0 16px 0;
+    }
+
+    .place {
+        margin: 49px 0 0;
+        display: block;
+    }
+
+    .place:first-child {
+        margin-top: 64px;
+    }
+
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0 16px 0;
+    }
+
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0 16px 25px;
+    }
+
+    .place__paragraph:last-child {
+        margin-bottom: 0;
+    }
+
+    .place__website {
+        display: none;
+    }
+
+    .place__image {
+        max-width: 320px;
+        max-height: 320px;
+        margin: 32px 0 32px;
+    }
+
+    .cover__link {
+        min-height: 200px;
+    }
+
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .cover__subtitle {
+        max-width: 288px;
+        margin-top: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer {
+        margin: 0;
+        display: block;
+        padding: 64px 16px 24px;
+        height: 198px;
+    }
+
+    .footer__list li {
+        display: block;
+        margin-bottom: 32px;
+    }
+
+    .footer__list {
+        margin-bottom: 48px;
+    }
+
+    .footer__link {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .footer__copyright {
+        line-height: 14px;
+    }
+}

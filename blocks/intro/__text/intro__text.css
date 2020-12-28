@@ -1,0 +1,15 @@
+.intro__text {
+  max-width: 690px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 34px;
+  margin: 32px 0 33px;
+}
+
+.intro__text:first-of-type {
+  font-size: 24px;
+  margin: 40px 0 32px;
+}
+
+

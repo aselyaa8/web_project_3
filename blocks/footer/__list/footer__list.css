@@ -1,0 +1,13 @@
+.footer__list {
+  list-style-type: none;
+  padding: 0px;
+  line-height: 18px;
+}
+
+.footer__list li {
+  display: inline;
+}
+
+.footer__list li:last-of-type {
+  margin-right: 0px;
+}
