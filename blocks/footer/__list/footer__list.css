@@ -2,10 +2,8 @@
   list-style-type: none;
   padding: 0px;
   line-height: 18px;
-}
-
-.footer__list li {
-  display: inline;
+  display: flex;
+  margin: 0;
 }
 
 .footer__list li:last-of-type {
