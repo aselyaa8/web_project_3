@@ -10,18 +10,18 @@
         <title>From Portland to Portland</title>
     </head>
     <body class="page">
-        <div class="page__container">
-            <div class="page__inner-container">
+
+            <div class="page__container">
                 <header class="header">
                     <img src="images/logo.svg" alt="logo" class="logo" />
-                    <div class="header__lang-links">
-                        <a href="#" class="header__lang-link" target="_blank">En</a>
-                        <a href="#" class="header__lang-link" target="_blank">Es</a>
-                    </div>
+                    <ul class="header__lang-links">
+                        <li class="header__lang-list-item"><a href="#" class="header__lang-link header__lang-link_active" target="_blank">En</a></li>
+                        <li class="header__lang-list-item"><a href="#" class="header__lang-link" target="_blank">Es</a></li>
+                    </ul>
                 </header>
             </div>
             <main class="content">
-                <div class="page__inner-container">
+
                     <section class="lead">
                         <h1 class="lead__title">From Portland to Portland</h1>
                         <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
@@ -30,6 +30,7 @@
                             <figcaption class="lead__caption">Your journey starts here</figcaption>
                         </figure>
                     </section>
+                    <div class="page__container">
                     <section class="intro">
                         <h2 class="intro__title">Know the country you live in a little better</h2>
                         <p class="intro__text">That's exactly what we have arranged for you via this travel story</p>
@@ -40,10 +41,10 @@
                             book.
                         </p>
                         <ul class="intro__list">
-                            <li><span>Distance (miles)</span> 3,666</li>
-                            <li><span>Travel time (days)</span> 22</li>
-                            <li><span>Highest point (feet) </span>9,613</li>
-                            <li><span>Lowest point (feet)</span>-3</li>
+                            <li><span class="intro__list-span">Distance (miles)</span> 3,666</li>
+                            <li><span class="intro__list-span">Travel time (days)</span> 22</li>
+                            <li><span class="intro__list-span">Highest point (feet) </span>9,613</li>
+                            <li><span class="intro__list-span">Lowest point (feet)</span>-3</li>
                         </ul>
                     </section>
                 </div>
@@ -61,14 +62,14 @@
                     <figure class="photo-grid__item"><img class="photo-grid__image" src="images/photo-grid-11-wires.jpg" alt="wires" /></figure>
                     <figure class="photo-grid__item"><img class="photo-grid__image" src="images/photo-grid-12-road.jpg" alt="road" /></figure>
                 </section>
-                <div class="page__inner-container">
+                <div class="page__container">
                     <section class="places">
                         <article class="place">
-                            <h3 class="place__title">Maine</h3>
+                            <h2 class="place__title">Maine</h2>
                             <img src="images/place-maine.jpg" alt="Maine" class="place__image" />
-                            <div>
-                                <p class="place__website place__website_url-heading">URL</p>
-                                <a href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" class="place__website place__website_link" target="_blank">global.llbean.com</a>
+                            <div class="place__website" >
+                                <p class="place__website-heading">URL</p>
+                                <a class="place__website-link" href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1"  target="_blank">global.llbean.com</a>
                             </div>
                             <div class="place__text">
                                 <p class="place__paragraph">
@@ -83,11 +84,11 @@
                             </div>
                         </article>
                         <article class="place">
-                            <h3 class="place__title">New Hampshire</h3>
+                            <h2 class="place__title">New Hampshire</h2>
                             <img src="images/place-new-hampshire.jpg" alt="Hampshire" class="place__image" />
-                            <div>
-                                <p class="place__website place__website_url-heading">URL</p>
-                                <a href="https://www.timberland.com/timberlandpro.html" target="_blank" class="place__website place__website_link">timberland.com</a>
+                            <div class="place__website">
+                                <p class="place__website-heading">URL</p>
+                                <a class="place__website-link" href="https://www.timberland.com/timberlandpro.html" target="_blank" >timberland.com</a>
                             </div>
                             <div class="place__text">
                                 <p class="place__paragraph">
@@ -103,11 +104,11 @@
                             </div>
                         </article>
                         <article class="place">
-                            <h3 class="place__title">New York</h3>
+                            <h2 class="place__title">New York</h2>
                             <img src="images/place-new-york.jpg" alt="New York" class="place__image" />
-                            <div>
-                                <p class="place__website place__website_url-heading">URL</p>
-                                <a href="https://www.ge.com/about-us" target="_blank" class="place__website place__website_link">ge.com</a>
+                            <div class="place__website">
+                                <p class="place__website-heading">URL</p>
+                                <a class="place__website-link" href="https://www.ge.com/about-us" target="_blank" >ge.com</a>
                             </div>
                             <div class="place__text">
                                 <p class="place__paragraph">
@@ -121,11 +122,11 @@
                             </div>
                         </article>
                         <article class="place">
-                            <h3 class="place__title">Erie, PA</h3>
+                            <h2 class="place__title">Erie, PA</h2>
                             <img src="images/place-pennsylvania.jpg" alt="Erie, PA" class="place__image" />
-                            <div>
-                                <p class="place__website place__website_url-heading">URL</p>
-                                <a href="https://www.fws.gov/refuge/erie" target="_blank" class="place__website place__website_link">www.fws.gov</a>
+                            <div class="place__website">
+                                <p class="place__website-heading">URL</p>
+                                <a class="place__website-link" href="https://www.fws.gov/refuge/erie" target="_blank" >www.fws.gov</a>
                             </div>
                             <div class="place__text">
                                 <p class="place__paragraph">
@@ -140,11 +141,11 @@
                             </div>
                         </article>
                         <article class="place">
-                            <h3 class="place__title">Ohio</h3>
+                            <h2 class="place__title">Ohio</h2>
                             <img src="images/place-ohio.jpg" alt="Ohio" class="place__image" />
-                            <div>
-                                <p class="place__website place__website_url-heading">URL</p>
-                                <a href="https://www.cedarpoint.com" target="_blank" class="place__website place__website_link">cedarpoint.com</a>
+                            <div class="place__website">
+                                <p class="place__website-heading">URL</p>
+                                <a  class="place__website-link" href="https://www.cedarpoint.com" target="_blank">cedarpoint.com</a>
                             </div>
                             <div class="place__text">
                                 <p class="place__paragraph">
@@ -157,7 +158,7 @@
                             </div>
                         </article>
                     </section>
-                </div>
+              </div>
                 <section class="cover">
                     <a href="https://www.nps.gov/nr/travel/route66/maps66.html" target="_blank" class="cover__link">
                         <h2 class="cover__title">Historic Route 66</h2>
@@ -169,13 +170,13 @@
             <footer class="footer">
                 <nav>
                     <ul class="footer__list">
-                        <li><a href="https://yandex.com/maps" target="_blank" class="footer__link">Maps</a></li>
-                        <li><a href="https://yandex.com/weather/moscow" target="_blank" class="footer__link">Weather</a></li>
-                        <li><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Calendar</a></li>
+                        <li class="footer__list-item"><a href="https://yandex.com/maps" target="_blank" class="footer__link">Maps</a></li>
+                        <li class="footer__list-item"><a href="https://yandex.com/weather/moscow" target="_blank" class="footer__link">Weather</a></li>
+                        <li class="footer__list-item"><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Calendar</a></li>
                     </ul>
                 </nav>
                 <p class="footer__copyright">&#169; 2020. Assel Kadyrkul</p>
             </footer>
-        </div>
+
     </body>
 </html>

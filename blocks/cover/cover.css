@@ -4,6 +4,7 @@
 @import url(__overlay/cover__overlay.css);
 
 .cover {
+  font-family: 'Inter', Arial, sans-serif;
   margin: 0;
   position: relative;
   z-index: 1;

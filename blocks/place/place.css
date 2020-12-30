@@ -3,8 +3,11 @@
 @import url(__text/place__text.css);
 @import url(__title/place__title.css);
 @import url(__website/place__website.css);
+@import url(__website-link/place__website-link.css);
+@import url(__website-heading/place__website-heading.css);
 
 .place {
+  font-family: 'Inter', Arial, sans-serif;
   margin: 80px 0 0;
   display: grid;
   grid-template-columns: 460px 484px;
@@ -27,3 +30,38 @@
   margin-bottom: 92px;
 }
 
+@media screen and (max-width: 1180px){
+  .place {
+    grid-template-columns: 440px 456px;
+    box-sizing: border-box;
+    grid-column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 960px){
+  .place {
+    margin: 73px 0 0;
+    grid-template-columns: 340px 352px;
+    box-sizing: border-box;
+    grid-column-gap: 28px;
+  }
+  .place:first-child {
+    margin-top: 88px;
+  }
+  .place:last-child {
+    margin-bottom: 89px;
+  }
+}
+
+@media screen and (max-width: 720px){
+  .place {
+    margin: 49px 0 0;
+    display: block;
+  }
+  .place:first-child {
+    margin-top: 64px;
+  }
+  .place:last-child {
+    margin-bottom: 65px;
+  }
+}

@@ -1,5 +1,27 @@
 
 .page__container {
-  max-width: 1184px;
+  max-width: 984px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1180px){
+  .page__container {
+    max-width: 928px;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+}
+@media screen and (max-width: 960px){
+  .page__container {
+    max-width: 720px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+}
+@media screen and (max-width: 720px){
+  .page__container {
+    max-width: 320px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
 }

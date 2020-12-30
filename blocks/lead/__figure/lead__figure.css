@@ -1,4 +1,23 @@
 .lead__figure {
-  width: 100%;
-  margin: 64px 0 0;
+  max-width: 984px;
+  max-height: 615px;
+  margin: 64px auto 0;
+}
+
+@media screen and (max-width: 1180px){
+  .lead__figure {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 960px){
+  .lead__figure {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 720px){
+  .lead__figure {
+    margin-top: 40px;
+  }
 }
