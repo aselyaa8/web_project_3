@@ -7,5 +7,29 @@
   font-family: 'Inter', Arial, sans-serif;
   display: flex;
   justify-content: space-between;
-  max-width: 1280;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1180px){
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 960px){
+  .header{
+    margin-left: 24px;
+    margin-right: 24px;
+    max-width: 720px;
+
+  }
+}
+
+@media screen and (max-width: 720px){
+  .header {
+    margin-left: 16px;
+    margin-right: 16px;
+    max-width: 288px;
+
+  }
 }

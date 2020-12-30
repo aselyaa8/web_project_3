@@ -5,4 +5,21 @@
   justify-content: space-between;
   align-items: center;
   margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 960px){
+  .places{
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 720px){
+  .places{
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

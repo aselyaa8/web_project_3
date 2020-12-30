@@ -6,6 +6,7 @@
 
 @media screen and (max-width: 1180px){
   .lead__figure {
+    max-width: 928px;
     margin-top: 56px;
   }
 }
